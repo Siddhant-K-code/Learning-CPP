@@ -7,8 +7,10 @@ struct Point
 };
 int main()
 {
+    
+    // will not work for C++, we have to initialize in order in C++
     struct Point p = {
-        .y = 25,
+        .y = 25, 
         .x = 120,
     };
 
